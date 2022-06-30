@@ -12,3 +12,21 @@
     display: flex;
     justify-content: space-between;
 }
+
+.nav__link {
+    position: relative;
+}
+.nav__notification {
+    position: absolute;
+    left: 20px;
+    bottom: 15px;
+}
+
+.nav__notification--dot {
+    background-color: tomato;
+    width: 5px;
+    height: 5px;
+    border-radius: 2.5px;
+    position: absolute;
+    left: 30px;
+}
