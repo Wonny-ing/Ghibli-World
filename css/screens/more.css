@@ -1,0 +1,61 @@
+.user-component {
+    padding: 0px var(--horizontal-space);
+}
+
+.user-component__subtitle i {
+    color: #FF7869;
+}
+
+.more-icons {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.more-icons__icon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 20px;
+}
+
+.more-icons__icon i {
+    font-size: 40px;
+}
+
+.more-icons__icon span {
+    margin-top: 15px;
+}
+
+.more-icons__dot {
+    position: relative;
+    left: 30px;
+}
+
+.suggestions__title {
+    padding: 30px 0px;
+    border-top: var(--main-border);
+    font-weight: 600;
+}
+
+.suggestions__icons {
+    display: flex;
+}
+
+.suggestions__icons--icon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px 10px;
+}
+
+.suggestions__icons--icon img {
+    width: 60px;
+    height: 60px;
+    border-radius: 10px;
+}
+
+.suggestions__icons--icon span {
+    margin-top: 10px;
+    opacity: 0.6;
+    font-size: 13px;
+}
