@@ -1,3 +1,7 @@
+#friends-screen {
+    height: 120vh;
+}
+
 #friends-display-link {
     text-align: center;
     display: block;
@@ -31,9 +35,57 @@
 }
 
 .freinds-screen__channel-header {
-    margin-bottom: 30px;
+    margin-bottom: 10px;
     display: flex;
     justify-content: space-between;
     color: rgb(0,0,0,0.5);
 }
+
+.user-component__recommended-channel {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.recommended-channel__column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(0,0,0,0.1);
+    border-radius: 10px;
+    margin: 0px 5px;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+.recommended-channel__column img {
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+    margin: 10px 0px;
+}
+
+.recommended-channel__column--title {
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.recommended-channel__column--hashtags {
+    font-size: 10px;
+    opacity: 0.8;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.recommended-channel__column button {
+    width: 90px;
+    height: 20px;
+    font-size: 10px;
+    border: none;
+    background-color: rgb(0,0,0,0.2);
+    border-radius: 8px;
+}
+
+
 

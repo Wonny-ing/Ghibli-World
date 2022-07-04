@@ -5,9 +5,9 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Find-</title>
+    <title>contents-</title>
   </head>
-  <body>
+  <body id="contents">
     <div class="status-bar">
       <div class="status-bar__column">
         <span>No Service</span>
@@ -24,7 +24,7 @@
     </div>
 
     <header class="screen-header">
-      <h1 class="screen-header__title">More</h1>
+      <h1 class="screen-header__title">Contents</h1>
       <div class="screen-header__icons">
         <span>
           <i class="fa-solid fa-magnifying-glass fa-lg"></i>
@@ -33,32 +33,33 @@
           <i class="fa-solid fa-music fa-lg"></i>
         </span>
         <span>
-          <div class="screen-header__dot dot"></div>
-          <i class="fa-solid fa-gear fa-lg"></i>
+          <a href="settings.html">
+            <div class="screen-header__dot dot"></div>
+            <i class="fa-solid fa-gear fa-lg"></i>
+          </a>
         </span>
       </div>
     </header>
 
-    <div class="user-component">
-      <div class="user-component__column">
-        <img
-          src="avatar.jpeg"
-          class="user-component__avatar user-component__avatar--xl"
-        />
-        <div class="user-component__text">
-          <h4 class="user-component__title">Ponyo</h4>
-          <h6 class="user-component__subtitle">
-            +82 010-1234-5678
-            <i class="fa-solid fa-circle-exclamation"></i>
-          </h6>
+    <main class="main-screen">
+      <div class="user-component">
+        <div class="user-component__column">
+          <img
+            src="avatar.jpeg"
+            class="user-component__avatar user-component__avatar--xl"
+          />
+          <div class="user-component__text">
+            <h4 class="user-component__title">Ponyo</h4>
+            <h6 class="user-component__subtitle">
+              +82 010-1234-5678
+              <i class="fa-solid fa-circle-exclamation"></i>
+            </h6>
+          </div>
+        </div>
+        <div class="user-component__column">
+          <i class="fa-solid fa-bars fa-2x"></i>
         </div>
       </div>
-      <div class="user-component__column">
-        <i class="fa-solid fa-bars fa-2x"></i>
-      </div>
-    </div>
-
-    <main class="main-screen">
       <div class="more-icons">
         <div class="more-icons__icon">
           <i class="fa-solid fa-calendar-check"></i>
@@ -88,19 +89,37 @@
       </div>
 
       <div class="suggestions">
-        <div class="suggestions__title">Suggestions</div>
+        <div class="suggestions__title">
+          <span>Best Contents</span>
+          <div class="suggestions__text">
+            <span>more...</span>
+            <i class="fa-solid fa-angle-right fs-xs"></i>
+          </div>
+        </div>
         <div class="suggestions__icons">
           <div class="suggestions__icons--icon">
             <img src="avatar.jpeg" />
-            <span>KaKao Story</span>
+            <span>Ponyo on the Cliff by the Sea</span>
           </div>
           <div class="suggestions__icons--icon">
             <img src="avatar.jpeg" />
-            <span>KaKao Friends</span>
+            <span>Kiki's Delivery Service</span>
           </div>
           <div class="suggestions__icons--icon">
             <img src="avatar.jpeg" />
-            <span>Friends Game</span>
+            <span>My Neighbor Totoro</span>
+          </div>
+          <div class="suggestions__icons--icon">
+            <img src="avatar.jpeg" />
+            <span>Howl's Moving Castle</span>
+          </div>
+          <div class="suggestions__icons--icon">
+            <img src="avatar.jpeg" />
+            <span>Spirited Away</span>
+          </div>
+          <div class="suggestions__icons--icon">
+            <img src="avatar.jpeg" />
+            <span>Princess Mononoke</span>
           </div>
         </div>
       </div>
@@ -132,6 +151,10 @@
         </li>
       </ul>
     </nav>
+
+    <div id="no-mobile">
+      <span>Your screen is too big </span>
+    </div>
 
     <script
       src="https://kit.fontawesome.com/c4bc47d755.js"

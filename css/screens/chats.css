@@ -1,0 +1,15 @@
+.info-component {
+    background-color: #F2F2F5;
+    border-radius: 20px;
+    margin-bottom: 10px;
+}
+
+.user-component__column > button {
+    width: 60px;
+    height: 30px;
+    background-color: #3282F6;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-size: 15px;
+}

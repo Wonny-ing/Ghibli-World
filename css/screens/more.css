@@ -1,5 +1,5 @@
-.user-component {
-    padding: 0px var(--horizontal-space);
+#contents {
+    height: 120vh;
 }
 
 .user-component__subtitle i {
@@ -35,10 +35,24 @@
     padding: 30px 0px;
     border-top: var(--main-border);
     font-weight: 600;
+    display: flex;
+    justify-content: space-between;
+}
+
+.suggestions__text {
+    display: flex;
+    align-items: center;
+    color: grey;
+}
+
+.suggestions__text span {
+    margin-right: 10px;
 }
 
 .suggestions__icons {
     display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
 }
 
 .suggestions__icons--icon {
@@ -49,13 +63,13 @@
 }
 
 .suggestions__icons--icon img {
-    width: 60px;
-    height: 60px;
-    border-radius: 10px;
+    width: 120px;
+    height: 180px;
+    border-radius: 20px;
 }
 
 .suggestions__icons--icon span {
     margin-top: 10px;
     opacity: 0.6;
-    font-size: 13px;
+    font-size: 10px;
 }
