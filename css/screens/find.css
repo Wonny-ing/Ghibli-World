@@ -15,9 +15,8 @@
 .find-icons {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     padding: 20px 10px;
-    border-top: var(--main-border);
-    border-bottom: var(--main-border);
 }
 
 .find-icons__icon {
@@ -32,6 +31,13 @@
 
 .find-icons span {
     margin-top: 10px;
+}
+
+.open-chat {
+    border-radius: 15px;
+    padding: 5px 15px;
+    background-color: rgb(0, 0, 0, 0.1);
+    margin: 10px 0px;
 }
 
 .open-chat__header {
@@ -49,7 +55,6 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border-bottom: var(--main-border);
     padding: 10px 0px;
 }
 
@@ -63,6 +68,9 @@
     text-transform: uppercase;
     opacity: 0.6;
     margin-bottom: 8px;
+    color: #0478A6;
+    font-weight: 600;
+    font-size: 13px;
 }
 
 .open-post__members {
@@ -71,7 +79,9 @@
 }
 
 .open-post__members--status {
-    color: #FF6BC6;
+    font-size: 11px;
+    font-weight: 600;
+    opacity: 0.4;
 }
 
 .open-post__photo img {
@@ -154,50 +164,6 @@
     width: 1.5px;
     height: 15px;
     background-color: rgb(0, 0, 0, 0.2);
-    margin: 0px 5px;
-}
-
-
-.shopping-search {
-    margin-top: 10px;
-   padding: 10px 0px;
-   border: var(--main-border);
-}
-
-.search-component {
-    display: flex;
-    align-items: center;
-    padding: 10px 0px;
-    background-color: #F2F2F5;
-    border-radius: 10px;
-}
-
-.search-component__icon i {
-    margin: 0px 15px;
-}
-
-.search-component__box input {
-    border: none;
-    background-color: #F2F2F5;
-} 
-
-.search-keyword {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px 0px;
-    margin-left: 10px;
-}
-
-.search-keyword__keyword {
-    display: flex;
-    margin-right: 10px;
-}
-
-.search-keyword__keyword span {
-    border: var(--main-border);
-    border-radius: 20px;
-    padding: 5px 10px;
     margin: 0px 5px;
 }
 

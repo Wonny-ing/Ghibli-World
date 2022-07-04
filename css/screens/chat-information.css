@@ -1,0 +1,61 @@
+#chat-Noti {
+    background-color: #F2F2F5;
+}
+
+#chat-Noti .status-bar,
+#chat-Noti .alt-header {
+    top: 0;
+    position: fixed;
+    width: 100%;
+    background-color: #F2F2F5;
+    box-sizing: border-box;
+}
+
+.Noti-chat {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    animation: fadeIn 1s linear;
+}
+
+.chat-information {
+    margin-top: 110px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 20px 20px;
+    border-radius: 10px;
+}
+
+.chat-info-component {
+    display: flex;
+    align-items: center;
+}
+
+.chat-info-component i {
+    margin: 0px 20px;
+    font-size: 25px;
+}
+
+.chat-info-component__title {
+    font-weight: 600;
+    margin: 5px 0px;
+}
+
+.chat-info-component__subtitle {
+    font-weight: 600;
+    margin: 5px 0px;
+    font-size: 14px;
+    opacity: 0.6;
+}
+
+.chat-info-component__btn {
+    background-color: #3282F6;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 10px;
+}

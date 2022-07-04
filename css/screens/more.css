@@ -6,34 +6,53 @@
     color: #FF7869;
 }
 
-.more-icons {
-    display: flex;
-    flex-wrap: wrap;
+.shopping-search {
+    margin-top: 20px;
+   padding: 10px 10px;
+   border: var(--main-border);
+   border-radius: 20px;
 }
 
-.more-icons__icon {
+.search-component {
     display: flex;
-    flex-direction: column;
     align-items: center;
-    padding: 35px 20px;
+    padding: 10px 0px;
+    background-color: #F2F2F5;
+    border-radius: 10px;
 }
 
-.more-icons__icon i {
-    font-size: 40px;
+.search-component__icon i {
+    margin: 0px 15px;
 }
 
-.more-icons__icon span {
-    margin-top: 15px;
+.search-component__box input {
+    border: none;
+    background-color: #F2F2F5;
+    width: 370px;
+} 
+
+.search-keyword {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0px;
+    margin-left: 10px;
 }
 
-.more-icons__dot {
-    position: relative;
-    left: 30px;
+.search-keyword__keyword {
+    display: flex;
+    margin-right: 10px;
+}
+
+.search-keyword__keyword span {
+    border: var(--main-border);
+    border-radius: 20px;
+    padding: 5px 10px;
+    margin: 0px 5px;
 }
 
 .suggestions__title {
     padding: 30px 0px;
-    border-top: var(--main-border);
     font-weight: 600;
     display: flex;
     justify-content: space-between;
@@ -51,7 +70,6 @@
 
 .suggestions__icons {
     display: flex;
-    justify-content: space-around;
     flex-wrap: wrap;
 }
 
@@ -59,11 +77,11 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 0px 10px;
+    margin: 10px 10px;
 }
 
 .suggestions__icons--icon img {
-    width: 120px;
+    width: 130px;
     height: 180px;
     border-radius: 20px;
 }

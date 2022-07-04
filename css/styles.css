@@ -21,6 +21,9 @@
 @import "screens/more.css";
 @import "screens/settings.css";
 @import "screens/chat-screen.css";
+@import "screens/chat-information.css";
+@import "screens/ponyo-chat.css";
+@import "screens/kaonashi-chat.css";
 
 body {
     color: #30363E;
