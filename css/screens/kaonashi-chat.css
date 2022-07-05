@@ -1,0 +1,20 @@
+#kaonashi-chat {
+    background-color: #C0DB80;
+    height: 110vh;
+}
+#kaonashi-chat .status-bar,
+#kaonashi-chat .alt-header {
+    top: 0;
+    position: fixed;
+    width: 100%;
+    background-color: #C0DB80;
+    box-sizing: border-box;
+}
+
+#kaonashi-chat .status-bar {
+    z-index: 2;
+}
+
+#kaonashi-chat .alt-header {
+    z-index: 1;
+}

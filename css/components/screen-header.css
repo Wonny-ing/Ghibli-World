@@ -15,12 +15,42 @@
 }
 
 .screen-header__title {
-    font-size: 32px;
+    font-size: 28px;
     font-weight: 600;
 }
 
 .screen-header__icons span {
     margin-left: 25px;
+}
+
+@keyframes scaleGlass {
+    from {
+        transform: none;
+        color: var(--blue);
+    }
+    to {
+        transform: scale(1.2);
+        color: var(--blue);
+    }
+}
+
+.screen-header__icons  .fa-magnifying-glass:hover {
+    animation: scaleGlass 0.2s linear forwards;
+}
+
+@keyframes rotateMusic {
+    from {
+        transform: none;
+        color: var(--blue);
+    }
+    to {
+        transform: rotateX(360deg);
+        color: var(--blue);
+    }
+}
+
+.screen-header__icons  .fa-music:hover {
+    animation: rotateMusic 2s linear infinite;
 }
 
 @keyframes rotateGear {
@@ -32,6 +62,21 @@
     }
 }
 
-.screen-header__icons .fa-gear:hover {
+.screen-header__icons .fa-gear {
     animation: rotateGear 2s linear infinite;
+}
+
+@keyframes colorGear {
+    from {
+        color: var(--blue);
+        transform: none;
+    }
+    to {
+        color: var(--blue);
+        transform: rotateZ(360deg);
+    }
+}
+
+.screen-header__icons .fa-gear:hover {
+    animation: colorGear 2s linear infinite;
 }

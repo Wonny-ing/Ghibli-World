@@ -11,6 +11,14 @@
     box-sizing: border-box;
 }
 
+#chat-Noti .status-bar {
+    z-index: 2;
+}
+
+#chat-Noti .alt-header {
+    z-index: 1;
+}
+
 .Noti-chat {
     margin-top: 50px;
     display: flex;
@@ -39,6 +47,7 @@
 .chat-info-component i {
     margin: 0px 20px;
     font-size: 25px;
+    color: #1097E4;
 }
 
 .chat-info-component__title {
@@ -54,7 +63,7 @@
 }
 
 .chat-info-component__btn {
-    background-color: #3282F6;
+    background-color: #1097E4;
     color: white;
     padding: 10px 15px;
     border-radius: 10px;

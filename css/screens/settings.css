@@ -26,6 +26,16 @@
     margin: 0px 20px;
 }
 
+.settings__setting:hover {
+    color: var(--blue);
+}
+
+.settings__setting__div {
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+}
+
 .sub-list .settings__setting:last-child {
     border-bottom: none;
 }
@@ -38,34 +48,25 @@
 }
 */
 
-.settings__setting i{
+.settings__setting__div i{
     font-size: 22px;
-    margin-right: 20px;
-    opacity: 0.8;
+    margin-right: 20px
+}
+
+.settings__setting-column i {
+    width: 30px;
+}
+
+.settings__setting-column span {
+    font-size: 17px;
+    font-weight: 600;
 }
 
 .settings__setting-column:last-child{
-    opacity: 0.5;
-}
-
-/*
-.new-badge {
-    background-color: tomato;
-    width: 20px;
-    height: 20px;
-    border-radius: 10px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: white;
+    font-size: 13px;
     font-weight: 600;
-    margin-left: 10px;
+    margin-right: 10px;
 }
-
-.new-badge span {
-    font-size: 12px;
-}
-*/
 
 .logout {
     margin: 20px 0px;
@@ -75,9 +76,15 @@
 .logout-btn {
     display: flex;
     justify-content: center;
-    background-color: var(--yellow);
+    background-color: var(--blue);
     padding: 20px 0px;
     border-radius: 15px;
     font-size: 20px;
     font-weight: 600;
+    color: white;
+}
+
+.logout-btn:hover {
+    background-color: white;
+    color: var(--blue);
 }

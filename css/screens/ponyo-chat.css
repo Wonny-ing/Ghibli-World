@@ -1,0 +1,20 @@
+#ponyo-chat-screen {
+    background-color: #F0A5B1;
+    height: 110vh;
+}
+#ponyo-chat-screen .status-bar,
+#ponyo-chat-screen .alt-header {
+    top: 0;
+    position: fixed;
+    width: 100%;
+    background-color: #F0A5B1;
+    box-sizing: border-box;
+}
+
+#ponyo-chat-screen .status-bar {
+    z-index: 2;
+}
+
+#ponyo-chat-screen .alt-header {
+    z-index: 1;
+}

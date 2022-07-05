@@ -3,6 +3,11 @@
     padding: 20px 15px;
 }
 
+.user-component:hover {
+    box-shadow: 3px 3px 5px rgb(0,0,0,0.3);
+    border-radius: 10px;
+}
+
 .user-component,
 .user-component__column:first-child {
     display: flex;
@@ -14,6 +19,7 @@
     height: 70px;
     border-radius: 30px;
     margin-right: 20px;
+    padding: 5px;
 }
 
 .user-component__title {
@@ -22,14 +28,17 @@
 }
 
 .user-component__subtitle {
-    margin-top: 8px;
-    font-size: 17px;
-    color: rgb(0, 0, 0, 0.5);
+    font-family: 'Kalam', cursive;
+    margin-top: 10px;
+    font-size: 14px;
+    font-size: 600;
+    opacity: 0.7;
 }
 
 .user-component__avatar--xl {
     width: 80px;
     height: 80px;
+    background-color: #F9BD3E;
 }
 
 .user-component__avatar--sm {
@@ -38,9 +47,6 @@
     border-radius: 25px;
 }
 
-.user-component__title--not-bold {
-    font-weight: 400;
-}
 
 .user-component__column:last-child{
     color: rgb(0,0,0,0.4);
@@ -53,6 +59,45 @@
     display: block;
     margin-bottom: 10px;
     font-size: 13px;
+}
+
+.user-component__avatar--ch {
+    background-color: #1097E4;
+}
+
+
+.user-component__avatar--ponyo {
+    background-color: #F0A5B1;
+}
+
+.user-component__avatar--totoro {
+    background-color: #FCF0AA;
+}
+
+.user-component__avatar--noface {
+    background-color: #C1DA80;
+}
+
+.user-component__avatar--baron {
+    background-color: #A6D9FA;
+}
+
+
+@keyframes imgBeat {
+    0% {
+        transform: none;
+    }
+    50% {
+        transform: scale(1.05);
+    }
+    100% {
+        transform: none;  
+    }
+}
+
+.user-component__avatar--ch {
+    will-change: transform;
+    animation: imgBeat 1s linear infinite;
 }
 
 

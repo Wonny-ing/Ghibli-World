@@ -58,6 +58,7 @@
     height: 50px;
     border-radius: 20px;
     margin-right: 10px;
+    
 }
 
 .message__author {
@@ -93,7 +94,7 @@
 }
 
 .message-row--own .message__bubble {
-    background-color: #3282F6;
+    background-color: #5EAED6;
     color: white;
     border-radius: 15px;
     border-top-right-radius: 0px;

@@ -1,5 +1,23 @@
 #contents {
-    height: 120vh;
+    height: 100vh;
+}
+
+@keyframes scaleBar {
+    from {
+        transform: none;
+    }
+    to {
+        transform: scale(1.1);
+    }
+}
+
+.user-component__column .fa-bars:hover {
+    color: black;
+    animation: scaleBar 0.2s linear forwards;
+}
+
+.user-component__contents {
+    margin-top: -15px;
 }
 
 .user-component__subtitle i {
@@ -7,7 +25,7 @@
 }
 
 .shopping-search {
-    margin-top: 20px;
+    margin-top: 10px;
    padding: 10px 10px;
    border: var(--main-border);
    border-radius: 20px;
@@ -25,6 +43,10 @@
     margin: 0px 15px;
 }
 
+.search-component__icon i:hover {
+    color: var(--blue);
+}
+
 .search-component__box input {
     border: none;
     background-color: #F2F2F5;
@@ -35,8 +57,9 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 0px;
-    margin-left: 10px;
+    padding-top: 8px;
+    margin-left: 15px;
+    font-family: 'Secular One', sans-serif;
 }
 
 .search-keyword__keyword {
@@ -49,6 +72,15 @@
     border-radius: 20px;
     padding: 5px 10px;
     margin: 0px 5px;
+    font-size: 12px;
+    font-weight: 600;
+    opacity: 0.8;
+}
+
+.search-keyword__keyword span:hover {
+    background-color: var(--blue);
+    border: none;
+    color: white;
 }
 
 .suggestions__title {
@@ -56,12 +88,18 @@
     font-weight: 600;
     display: flex;
     justify-content: space-between;
+    opacity: 0.8;
+}
+
+.suggestions__title span {
+    font-family: 'Secular One', sans-serif;
 }
 
 .suggestions__text {
     display: flex;
     align-items: center;
-    color: grey;
+    opacity: 0.7;
+    font-size: 13px;
 }
 
 .suggestions__text span {
@@ -84,10 +122,18 @@
     width: 130px;
     height: 180px;
     border-radius: 20px;
+    filter: brightness(80%);
 }
 
 .suggestions__icons--icon span {
+    font-family: 'Shadows Into Light', cursive;
     margin-top: 10px;
-    opacity: 0.6;
-    font-size: 10px;
+    opacity: 0.9;
+    font-size: 8px;
+    font-weight: 600;
+}
+
+.suggestions__icons--icon img:hover {
+    transform: scale(1.1);
+    filter: brightness(100%);
 }
