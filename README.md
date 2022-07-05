@@ -1,3 +1,3 @@
-# Kokoa Clone 2022
+# Ghibli World
 
-HTML & CSS got so much fun!
+KakaoTalk 참고해서 만듦
