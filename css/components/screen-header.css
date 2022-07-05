@@ -34,7 +34,8 @@
     }
 }
 
-.screen-header__icons  .fa-magnifying-glass:hover {
+.screen-header__icons  .fa-magnifying-glass:hover,
+.screen-header__icons .fa-comment-dots:hover {
     animation: scaleGlass 0.2s linear forwards;
 }
 

@@ -25,6 +25,10 @@
     align-items: center;
 }
 
+.find-icons__icon:hover {
+    color: var(--blue);
+}
+
 .find-icons__icon i {
     font-size: 35px;
 }
